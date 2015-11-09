@@ -1,0 +1,22 @@
+{
+  "name": "ayayo-web",
+  "version": "1.0.0",
+  "description": "api.ai wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha ./test/spec --compilers js:babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/12go/ayayo.git"
+  },
+  "keywords": [
+    "api.ai"
+  ],
+  "author": "12go",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/12go/ayayo/issues"
+  },
+  "homepage": "https://github.com/12go/ayayo#readme"
+}
