@@ -3,10 +3,12 @@
 var serverFactory = require('spa-server')
 
 var server = serverFactory.create({
-  path: './dist',
+  //path: './dist',
+  path: '.',
   hostname: 'localhost',
   port: 8080,
   fallback: '/200.html',
 })
 
+console.log('starting server')
 server.start()
