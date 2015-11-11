@@ -21,8 +21,6 @@ const pages = {
       document.querySelector('[role="app"]')
     )
   },
-  debug() {
-  },
 }
 
 export default assign({}, pages)

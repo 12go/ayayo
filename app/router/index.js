@@ -5,7 +5,6 @@ import routeHandlers from './route_handlers'
 const routerConfig = assign({}, routeHandlers, {
   routes: {
     '': 'home',
-    'debug': 'debug',
   },
 })
 
